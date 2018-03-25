@@ -1,3 +1,6 @@
+ 
+ /*Index Styles*/
+ 
  body {
     margin: 0;
     font-family:'Georgia', Times, Times New Roman, serif;
@@ -5,6 +8,8 @@
     background-repeat: repeat;
    
 }
+
+/*Navbar style for all three forms*/
 nav {
     display: block;
     position: relative;
@@ -55,6 +60,9 @@ a {
 
     
 }
+
+/*main profile image on index page */
+
 img.prof {
     margin: 0 25px 0 0;
     height: 300px;
@@ -96,6 +104,8 @@ img.prof {
     
 }
 
+/*connect with me box*/
+
 .connect {
         display: block;
         background-color: white;
@@ -122,42 +132,44 @@ img.prof {
     bottom: 35px;
 }
 
-    h2 {
-        color:#4aaaa5;
-        font-size: 27px;
-        text-align: center;
-    }
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        border-radius: 50%;
-      }
+ h2 {
+    color:#4aaaa5;
+    font-size: 27px;
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
       
-      .fa:hover {
-          opacity: 0.7;
-      }
+.fa:hover {
+    opacity: 0.7;
+}
       
-      .fa-facebook {
-        background: #3B5998;
-        color: white;
-      }
-      .fa-linkedin {
-        background: #007bb5;
-        color: white;
-      }
-      .fa-twitter {
-        background: #55ACEE;
-        color: white;
-      }   
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}   
 
 .connect-links {
     position: absolute;
     right : 30px;
 }
+
+/*Projects/portfolio page begins here */
 
 .main2 {
     width: 30%;
@@ -168,17 +180,19 @@ img.prof {
     color: #4aaaa5;
     margin: 72px;
     float:left;
-    }
+}
 
-    .about2 {
+.about2 {
     
-        top: -85px;
-        left: -14px;
-        font-size: 18px;
-        color: #4aaaa5;
-        border-bottom:solid 3px darkgray;
-    }    
-    
+    top: -85px;
+    left: -14px;
+    font-size: 18px;
+    color: #4aaaa5;
+    border-bottom:solid 3px darkgray;
+}    
+
+/*Project One*/
+
 .project1 {
     width: 200px;
     height:200px;
@@ -205,9 +219,7 @@ img.prof {
     border-radius: 0 0 15px 15px;
 }
 
-
-
-
+/*Project2*/
 
 .project2 {
     width: 200px;
@@ -230,6 +242,8 @@ img.prof {
     border-radius: 0 0 15px 15px;
 }
 
+/*Project 3*/
+
 .project3 {
     width: 200px;
     height:200px;
@@ -251,6 +265,8 @@ img.prof {
     border-radius: 0 0 15px 15px;
 }
 
+/*Project 4*/
+
 .project4 {
     width: 200px;
     height:200px;
@@ -271,6 +287,9 @@ img.prof {
     bottom: 0px;
     border-radius: 0 0 15px 15px;
 }
+
+/* Project 5*/
+
 .project5 {
     width: 200px;
     height:200px;
@@ -292,6 +311,8 @@ img.prof {
     border-radius: 0 0 15px 15px;
 }
 
+/*Portfolio/Project page Connect with me box*/
+
 .connect2 {
     display: block;
     background-color: white;
@@ -306,6 +327,19 @@ img.prof {
     
 }
 
+/*Contact Form Styles Begin here*/
+
+.formcontainer{
+    width: 977px;
+    display: block;
+    background-color: white;
+    margin: 25px;
+    left: 47px;
+    position: relative;
+}
+
+/*name*/
+
 .name-entry {
     position: relative;
     font-size: 30px;
@@ -318,6 +352,8 @@ img.prof {
     height: 39px;
     font-size: 20px;
 }
+/*Email*/
+
 .email-entry {
     position: relative;
     margin: 50px;
@@ -330,6 +366,8 @@ img.prof {
     height: 39px;
     font-size: 20px;
 }
+/*Message me*/
+
 .message-text {
     position: relative;
     font-size: 30px;
@@ -343,6 +381,8 @@ img.prof {
     font-size: 20px;
 }
 
+/*Submit Button*/
+
 #button {
     background-color: #4aaaa5;
     padding: 15px 70px;
@@ -351,24 +391,59 @@ img.prof {
     margin-bottom: 27px;
 }
 
-.formcontainer{
-    width: 977px;
-    display: block;
-    background-color: white;
-    margin: 25px;
-    left: 47px;
-    position: relative;
-}
+
 .submit-button{
     position: relative;
     left: 135px;
 }  
 
-/* @media screen and (min-width: 980px) {
-    .connect, .connect-links {
-        display: none;
+/*Connect Box for Contact form*/
+
+.connect3 {
+        display: block;
+        background-color: white;
+        position: relative;
+        top: 45px;
+        width: 328px;
+        margin: 25px;
+        height: 250px;
+        right: 200px; 
+        left: 47px;
+        padding: 10px;       
+}
+.connect-links3 {
+    margin: 43px;
+}
+
+/*media Queries begin here*/
+
+ @media screen and (max-width: 980px) {
+    .formcontainer {
+        width: 500px;
+        float: left;
+        
     }
-}  */
+    #email {
+        width: 300px;
+    }
+    #name {
+        width: 300px;
+    }
+    .connect3 {
+        width: 200px;
+        float: left;
+        height: 500px;
+        height: 381px;
+    top: 0px;
+    }
+    .message-text {
+        left: 5px;
+    }
+    .submit-button {
+        left: 35px;
+    }
+    }
+  
 
 @media screen and (max-width: 980px) {
 
@@ -448,5 +523,10 @@ img.prof {
     }
     .connect-links2 {
         left: 70px;
+    }
+
+    .formcontainer {
+        left: -10px;
+
     }
 }
