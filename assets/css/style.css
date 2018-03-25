@@ -1,0 +1,445 @@
+ body {
+    margin: 0;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    background-image: url('../images/upfeathers.png');
+    background-repeat: repeat;
+   
+}
+nav {
+    display: block;
+    position: relative;
+    margin: 25px;
+    background-color: white; }
+    
+a {
+    color: black;
+}
+
+.navBar {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.navBar-name {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 15px;
+    font-size: 20px;
+    left: 10px;
+    top: -6px;
+    width: 243px;
+   
+}
+.navBar-links {
+    position: absolute;
+    right:193px;
+    top: 47px;
+    background-color: white;
+    font-size: 26px;
+    color: darkgray
+    }
+        
+.main {
+    display: block;
+    background-color: white;
+    float: left;
+    position: relative;
+    width: 40%;
+    top: 17px;
+    width: 500px;
+    left: 46px;
+    margin: 25px;
+    height: 700px;
+
+    
+}
+img.prof {
+    margin: 0 25px 0 0;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top:72px;
+    left: 50px;
+    border-radius: 15px;
+}
+
+
+.banner {
+    width: 978px;
+    height: 148px;
+    position: relative;
+    top: 12px;
+    left: 47px;
+    border-bottom: solid 5px darkgray;
+
+}
+ 
+
+
+.about {
+    position: absolute;
+    top: -8px;
+    left: 63px;
+    font-size: 18px;
+    color: #4aaaa5;
+    border-bottom: solid 5px darkgray;
+}
+
+.paragraph {
+    position: absolute;
+    margin: 25px;
+    bottom: 15px;
+    font-size: 22px;
+    color: darkgray;
+    
+}
+
+.connect {
+        display: block;
+        background-color: white;
+        float: right;
+        position: relative;
+        top: 17px;
+        width: 300px;
+        margin: 25px;
+        height: 250px;
+        right: 250px;
+    
+        
+    }
+
+.conn {
+        color:#4aaaa5;
+        font-size: 34px;
+        text-align: center;
+        padding: 31px;
+    }
+.connect-links2 {
+    position: absolute;
+    right: 64px;
+    bottom: 35px;
+}
+
+    h2 {
+        color:#4aaaa5;
+        font-size: 27px;
+        text-align: center;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }   
+
+.connect-links {
+    position: absolute;
+    right : 30px;
+}
+
+.main2 {
+    width: 30%;
+    height: 1200px;
+    padding: 33px;
+     margin: auto;
+     background-color: white;
+    color: #4aaaa5;
+    margin: 72px;
+    float:left;
+    }
+
+    .about2 {
+    
+        top: -85px;
+        left: -14px;
+        font-size: 18px;
+        color: #4aaaa5;
+        border-bottom:solid 3px darkgray;
+    }    
+    
+.project1 {
+    width: 200px;
+    height:200px;
+    position: relative;
+    top: 40px;
+    margin: auto;
+
+}
+.proj {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+.project1-text {
+    width: 200px;
+    position: absolute;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    left:0px;
+    bottom: 0px;
+    border-radius: 0 0 15px 15px;
+}
+
+
+
+
+
+.project2 {
+    width: 200px;
+    height:200px;
+    position: relative;
+    top: 60px;
+    margin: auto;
+
+}
+.proj {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+.project2-text {
+    width: 200px;
+    position: absolute;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    left:0px;
+    bottom: 0px;
+    border-radius: 0 0 15px 15px;
+}
+
+.project3 {
+    width: 200px;
+    height:200px;
+    position: relative;
+    top: 80px;
+    margin: auto;
+
+}
+.proj {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+.project3-text {
+    width: 200px;
+    position: absolute;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    left:0px;
+    bottom: 0px;
+    border-radius: 0 0 15px 15px;
+}
+
+.project4 {
+    width: 200px;
+    height:200px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+
+}
+.proj {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+.project4-text {
+    width: 200px;
+    position: absolute;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    left:0px;
+    bottom: 0px;
+    border-radius: 0 0 15px 15px;
+}
+.project5 {
+    width: 200px;
+    height:200px;
+    position: relative;
+    top: 120px;
+    margin: auto;
+
+}
+.proj {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+.project5-text {
+    width: 200px;
+    position: absolute;
+    z-index: 1000;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    left:0px;
+    bottom: 0px;
+    border-radius: 0 0 15px 15px;
+}
+
+.connect2 {
+    display: block;
+    background-color: white;
+    float: right;
+    position: relative;
+    top: 45px;
+    width: 328px;
+    margin: 25px;
+    height: 250px;
+    right: 200px;
+
+    
+}
+
+.name-entry {
+    position: relative;
+    margin: 20px;
+    font-size: 30px;
+    left: 52px;
+}
+.email-entry {
+    position: relative;
+    margin: 20px;
+    font-size: 30px;
+    left: 52px;
+}
+.message-text {
+    position: relative;
+    margin: 20px;
+    font-size: 30px;
+    left: 52px;
+}
+.formcontainer{
+    width: 977px;
+    display: block;
+    background-color: white;
+    margin: 25px;
+    left: 47px;
+    position: relative;
+}
+.submit-button{
+    position: relative;
+    left: 135px;
+}  
+
+/* @media screen and (min-width: 980px) {
+    .connect, .connect-links {
+        display: none;
+    }
+}  */
+
+@media screen and (max-width: 980px) {
+
+    .connect {float: left;
+            margin-left: 322px;
+        } 
+
+    .connect2 {
+       float: left;
+       margin-left: 322px;
+       top: -70px;
+       right:250px;
+    }
+    .connect-links2 {
+        width: 100%;
+        right:-16px;
+    }
+
+    .main2 {
+        width: 75%;
+        height: 800px;
+    }
+
+    .second-col{
+        float:right;
+        position: relative;
+        bottom: 60px;
+        right: 150px;
+}
+    .first-col{
+        float:left;
+    }
+}
+
+    
+
+@media screen and (max-width: 640px) {
+    
+    .navBar-links {
+        width: 97%;
+        float: left;
+        left: 2px;
+        top: 93px;
+    }
+
+    .main {
+        width: 381px;
+        left: 0px;
+    }
+    p {
+        margin: 0px;
+        padding: 8px;
+    }
+    .banner {
+        width: 85%;
+        left: 0px;
+    }
+
+    .main2 {
+        height: 1200px;
+        width: 80%;
+        margin: 25px;
+    }
+
+    .second-col{
+        float:none;
+       margin: 52px;
+       left:1px;
+    }
+    .first-col{
+        float:none;
+    }
+    .connect2 {
+        width:328px;
+        margin-top:66px;
+
+    }
+    .connect-links2 {
+        left: 70px;
+    }
+}
