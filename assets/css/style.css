@@ -217,12 +217,7 @@ img.prof {
     margin: auto;
 
 }
-.proj {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border-radius: 0 0 15px 15px;
-}
+
 .project2-text {
     width: 200px;
     position: absolute;
@@ -243,12 +238,7 @@ img.prof {
     margin: auto;
 
 }
-.proj {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border-radius: 0 0 15px 15px;
-}
+
 .project3-text {
     width: 200px;
     position: absolute;
@@ -269,12 +259,7 @@ img.prof {
     margin: auto;
 
 }
-.proj {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border-radius: 0 0 15px 15px;
-}
+
 .project4-text {
     width: 200px;
     position: absolute;
@@ -294,12 +279,7 @@ img.prof {
     margin: auto;
 
 }
-.proj {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border-radius: 0 0 15px 15px;
-}
+
 .project5-text {
     width: 200px;
     position: absolute;
@@ -328,22 +308,49 @@ img.prof {
 
 .name-entry {
     position: relative;
-    margin: 20px;
     font-size: 30px;
-    left: 52px;
+    left: 23px;
+    top: 30px;
+}
+
+#name {
+    width: 75%;
+    height: 39px;
+    font-size: 20px;
 }
 .email-entry {
     position: relative;
-    margin: 20px;
+    margin: 50px;
     font-size: 30px;
-    left: 52px;
+    left: -30px;
+}
+
+#email {
+    width: 84%;
+    height: 39px;
+    font-size: 20px;
 }
 .message-text {
     position: relative;
-    margin: 20px;
     font-size: 30px;
-    left: 52px;
+    left: 16px;
+    bottom: 38px;
 }
+
+#text {
+    width: 72%;
+    height: 99px;
+    font-size: 20px;
+}
+
+#button {
+    background-color: #4aaaa5;
+    padding: 15px 70px;
+    font-size: 25px;
+    margin-left: -30px;
+    margin-bottom: 27px;
+}
+
 .formcontainer{
     width: 977px;
     display: block;
